@@ -1,12 +1,12 @@
 ansible_user: ec2-user
 ansible_password: DevOps321
-MONGODB_HOST: mongodb-{{ env }}.anand88b.online
-CATALOGUE_HOST: catalogue-{{ env }}.anand88b.online
-REDIS_HOST: redis-{{ env }}.anand88b.online
-USER_HOST: user-{{ env }}.anand88b.online
-CART_HOST: cart-{{ env }}.anand88b.online
-MYSQL_HOST: mysql-{{ env }}.anand88b.online
-SHIPPING_HOST: shipping-{{ env }}.anand88b.online
-RABBITMQ_HOST: rabbitmq-{{ env }}.anand88b.online
-PAYMENT_HOST: payment-{{ env }}.anand88b.online
+MONGODB_HOST: mongodb-"{{ env }}".anand88b.online
+CATALOGUE_HOST: catalogue-"{{ env }}".anand88b.online
+REDIS_HOST: redis-"{{ env }}".anand88b.online
+USER_HOST: user-"{{ env }}".anand88b.online
+CART_HOST: cart-"{{ env }}".anand88b.online
+MYSQL_HOST: mysql-"{{ env }}".anand88b.online
+SHIPPING_HOST: shipping-"{{ env }}".anand88b.online
+RABBITMQ_HOST: rabbitmq-"{{ env }}".anand88b.online
+PAYMENT_HOST: payment-"{{ env }}".anand88b.online
 app_version: v3
