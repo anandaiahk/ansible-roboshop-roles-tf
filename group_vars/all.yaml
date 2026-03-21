@@ -9,4 +9,3 @@ MYSQL_HOST: mysql-"{{ env }}".anand88b.online
 SHIPPING_HOST: shipping-"{{ env }}".anand88b.online
 RABBITMQ_HOST: rabbitmq-"{{ env }}".anand88b.online
 PAYMENT_HOST: payment-"{{ env }}".anand88b.online
-app_version: v3
